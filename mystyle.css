@@ -1,0 +1,17 @@
+body{
+   Background-color:DimGray;
+   color:white;
+}
+
+
+h1{
+   size:200px;
+   font-family:Verdana;
+      
+}
+
+p{
+   font-family:Verdana;
+   position:absolute;
+   top:20px;
+}
