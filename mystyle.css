@@ -3,15 +3,19 @@ body{
    color:white;
 }
 
+div{
+   width:35%;
+}
 
 h1{
-   size:200px;
+   font-size:200px;
    font-family:Verdana;
       
 }
 
+
 p{
    font-family:Verdana;
-   
+   font-size:16px;
    
 }
