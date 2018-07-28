@@ -11,7 +11,7 @@ div.title{
 }
 
 h1{
-   font-size:200px;
+   font-size:72px;
    font-family:Verdana;
    text-align:left;
 }
@@ -19,6 +19,6 @@ h1{
 
 p{
    font-family:Verdana;
-   font-size:16px;
-   
+   font-size:12px;
+   color:#d9d9d9;
 }
