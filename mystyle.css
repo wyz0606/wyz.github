@@ -3,14 +3,17 @@ body{
    color:white;
 }
 
-div{
+div.title{
    width:35%;
+   margin-left:40px;
+   margin-top:20px;
+   padding:10px;
 }
 
 h1{
    font-size:200px;
    font-family:Verdana;
-      
+   text-align:left;
 }
 
 
