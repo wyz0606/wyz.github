@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Oswald');
+@import url('https://meyerweb.com/eric/tools/css/reset/reset.css');
+
+
+body{
+   Background-color:#595959;
+   color:white;
+   margin:0px;
+   font-family:'Do Hyeon', sans-serif;
+}
+
+.nav{
+   list-style-type:none;
+   margin:0;
+   padding:0;
+   text-align:center;
+   /*background-color:#404040;*/
+   position:fixed;
+   top:0;
+   width:100%;
+   z-index: 1
+}
+.nav li{
+   margin:auto;
+   display:inline-block;
+   font-size:36px;
+   padding:20px;
+}
+.nav li a{
+   transition:color ease 0.5s;
+   text-decoration:none;
+   color:#d9d9d9;
+}
+
+li a:hover{
+   text-decoration:none;
+   color:white;
+
+}
+
+li a:active{
+   text-decoration:none;
+   color:white;
+}
+
+#layout{
+   display:grid;
+   grid-template-columns: auto auto;
+   margin:0 10vw;
+   margin-top:50vh;
+}
+
+#introduction{
+   /*font-family:Verdana;*/
+   font-size:14px;
+   color:#b3b3b3;
+   line-height:20px;
+   width: 20vw;
+}
