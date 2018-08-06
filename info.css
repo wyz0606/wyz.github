@@ -58,7 +58,7 @@ li a:active{
    width: 30vw;
 }
 
-#introduction{
+.introduction{
    /*font-family:Verdana;*/
    font-size:14px;
    color:#b3b3b3;
