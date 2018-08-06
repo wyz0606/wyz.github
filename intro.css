@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Oswald');
 @import url('https://meyerweb.com/eric/tools/css/reset/reset.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body{
    
@@ -13,6 +14,7 @@ body{
    list-style-type:none;
    margin:0;
    padding:0;
+
    text-align:center;
    /*background-color:#404040;*/
    position:fixed;
@@ -23,7 +25,8 @@ body{
 .nav li{
    margin:auto;
    display:inline-block;
-   font-size:36px;
+   /*font-family: 'Roboto', sans-serif;*/
+   font-size:32px;
    padding:20px;
 }
 .nav li a{
@@ -75,9 +78,10 @@ li a:active{
 #background{
    position: absolute;
    width:100%;
-   margin: 0;
+   top: 15vh;
    padding: 0;
    z-index: -1;
+
    /*opacity:0.5;*/
 }
 
