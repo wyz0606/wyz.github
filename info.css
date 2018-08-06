@@ -49,6 +49,10 @@ li a:active{
    margin-top:50vh;
 }
 
+.box{
+   display:inline-block;
+}
+
 .item{
    position: relative;
    width: 30vw;
