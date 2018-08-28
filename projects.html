@@ -2,28 +2,33 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="projects.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
 <ul class="nav">
-   <li><a href="index.html">INTRO</a></li>
+   <li><a href="intro.html">INTRO</a></li>
    <li><a href="projects.html">PROJECTS</a></li>
    <li><a href="info.html">ABOUT</a></li>
 </ul>
 
 <div>
-<img id="background" src="pictures/background_project.png">
-	<div id="mask"></div>
-</div>
-
-<div id="head">
+	<!-- <div id="background"></div> -->
+    <img id="background" src="pictures/background_project.png">
+	<div id="mask">	</div>
+	<div id="head">
 	
-	<div id="text-container">
-	<h1 id="text">
-		My design for UI UX & INTERACTION
-    </h1>
+	   <div id="text-container">
+	      <h1 id="text">
+		  My design for UI UX & INTERACTION
+          </h1>
+       </div>
+       
+       <a id="arrow"><img src="pictures/arrow.png" style="width: 5vw;"></a>
     </div>
 </div>
+
+
 
 
 <div id="out">
@@ -58,11 +63,18 @@
 			<div class="text">Future Delivery Experience</div>
 		</div>
 	</div>
+	<div class="item">
+		<a href="findJob.html"><img src="./pictures/cover6.png" class="image"></a>
+		<div class="overlay overlayFade">
+			<!-- <div class="text">Career Planning Game</div> -->
+			<a href="findJob.html" class="text">Career Planning Game</a>
+		</div>
+	</div>
 	
 	
 </div>
 </div>
 
 </body>
-
+<script type="text/javascript" src="js/jQueryProjects.js"></script>
 </html>
